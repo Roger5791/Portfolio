@@ -16,14 +16,14 @@ import Socials from "./Socials";
 
 const Hero = () => {
   return (
-    <section className="py-12 xl:py-24 xl:pt-24 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none">
-      <div className="container mx-auto">
+    <section className="py-12 xl:py-24 xl:pt-6 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none">
+      <div className="xl:px-20 px-4">
         <div className="flex justify-between gap-x-8">
-          <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left ">
+          <div className="flex xl:max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left ">
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
               Developer
             </div>
-            <h1 className="h1">Hello, my name is Saurav Antony</h1>
+            <h1 className="h1 pb-6">Hello, my name is Saurav Antony</h1>
             <p className=" max-w-[490px] mx-auto xl:mx-0">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Accusantium doloribus assumenda eum exercitationem sit ratione

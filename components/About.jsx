@@ -116,8 +116,8 @@ const About = () => {
   };
 
   return (
-    <section className=" h-[860px] pb-12 xl:py-24">
-      <div className="container mx-auto">
+    <section className="pb-12 xl:py-24">
+      <div className=" px-4 xl:px-16">
         <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
           {" "}
           About me
@@ -126,7 +126,7 @@ const About = () => {
         <div className="flex flex-col xl:flex-row">
           <div className="hidden xl:flex flex-1 relative">
             <DevImg
-              containerStyles="bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative"
+              containerStyles="bg-about_shape_light dark:bg-about_shape_dark w-[430px] h-[430px] bg-cover bg-no-repeat relative"
               imgSrc="/about/developer.png"
             />
           </div>
@@ -135,7 +135,7 @@ const About = () => {
 
           <div className="flex-1">
             <Tabs>
-              <TabsList className="w-full grid xl:grid-cols-3 xl:max-w-[520px] xl:border dark:border-none">
+              <TabsList className="w-full  grid xl:grid-cols-3 xl:max-w-[520px] xl:border dark:border-none">
                 <TabsTrigger className="w-[162px] xl:w-auto" value="personal">
                   Personal Info
                 </TabsTrigger>
@@ -205,7 +205,7 @@ const About = () => {
                   {/*=========Education========*/}
 
                   <div className="grid md:grid-cols-2 gap-y-8">
-                    <div className="flex flex-col gap-y-6">
+                    <div className="flex flex-col items-center gap-y-6">
                       <div className="flex gap-x-4 items-center text-[22px] text-primary">
                         <Briefcase />
                         <h4 className="capitalize font-medium">
@@ -213,7 +213,7 @@ const About = () => {
                         </h4>
                       </div>
 
-                      <div className="flex flex-col gap-y-8">
+                      <div className="flex flex-col">
                         {getData(qualificationsData, "education").data.map(
                           (item, index) => {
                             const { institute, course } = item;
@@ -237,7 +237,7 @@ const About = () => {
                       </div>
                     </div>
 
-                    <div className="flex flex-col gap-y-6">
+                    <div className="flex flex-col items-center gap-y-6">
                       <div className="flex gap-x-4 items-center text-[22px] text-primary ">
                         <GraduationCap size={30} />
                         <h4 className="capitalize font-medium ">
@@ -245,7 +245,7 @@ const About = () => {
                         </h4>
                       </div>
 
-                      <div className="flex flex-col gap-y-8">
+                      <div className="flex flex-col it">
                         {getData(qualificationsData, "schooling").data.map(
                           (item, index) => {
                             const { institute, course } = item;
