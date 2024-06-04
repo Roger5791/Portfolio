@@ -86,6 +86,10 @@ const skillsData = [
         course: "NodeJS, ExpressJS",
       },
       {
+        skill: "Databases: ",
+        course: "MongoDB, MySQL",
+      },
+      {
         skill: "Other: ",
         course: "Tkinter, Git",
       },
@@ -303,7 +307,7 @@ const About = () => {
                         {getData(skillsData, 'tools').data.map((item, index) => {
                             const { imgPath } = item;
                             return (
-                                <div key={index}>
+                                <div className="hover:scale-[1.1] cursor-pointer" key={index}>
                                     <Image src={imgPath} width={35} height={35} alt="" priority />
                                 </div>
                             )
