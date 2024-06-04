@@ -73,7 +73,7 @@
   }
 
   .h3{
-    @apply text-3xl font-bold
+    @apply text-2xl font-bold
   }
 
   .h4{
@@ -90,4 +90,8 @@
 
   .badge{
     @apply z-10 w-[200px] bg-white dark:backdrop-blur-[44px] shadow-2xl h-[68px] p-4 rounded-[10px] flex items-center gap-x-4
+  }
+
+  .text-gray-alt{
+    @apply text-gray-500 dark:text-gray-400
   }

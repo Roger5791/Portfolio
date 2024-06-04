@@ -116,9 +116,9 @@ const About = () => {
   };
 
   return (
-    <section className="pb-12 xl:py-24">
-      <div className=" px-4 xl:px-16">
-        <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
+    <section className="pb-12 xl:py-20">
+      <div className=" px-6 xl:px-20">
+        <h2 className="section-title mb-8 xl:mb-12 text-center mx-auto">
           {" "}
           About me
         </h2>
@@ -126,7 +126,7 @@ const About = () => {
         <div className="flex flex-col xl:flex-row">
           <div className="hidden xl:flex flex-1 relative">
             <DevImg
-              containerStyles="bg-about_shape_light dark:bg-about_shape_dark w-[430px] h-[430px] bg-cover bg-no-repeat relative"
+              containerStyles="bg-about_shape_light dark:bg-about_shape_dark w-[400px] h-[400px] bg-cover bg-no-repeat relative"
               imgSrc="/about/developer.png"
             />
           </div>
@@ -134,9 +134,9 @@ const About = () => {
           {/*=========Tabs========*/}
 
           <div className="flex-1">
-            <Tabs>
-              <TabsList className="w-full  grid xl:grid-cols-3 xl:max-w-[520px] xl:border dark:border-none">
-                <TabsTrigger className="w-[162px] xl:w-auto" value="personal">
+            <Tabs defaultValue="personal">
+              <TabsList className="w-full grid xl:grid-cols-3 xl:max-w-[520px]  xl:border dark:border-none">
+                <TabsTrigger className="w-[162px]  xl:w-auto" value="personal">
                   Personal Info
                 </TabsTrigger>
                 <TabsTrigger
@@ -159,7 +159,7 @@ const About = () => {
                     <h3 className="h3 mb-4">
                       Unmaijaio aufauifh afhuiahf afuhauiofha fiahf afia
                     </h3>
-                    <p className="subtitle max-w-xl mx-auto xl:mx-0">
+                    <p className="text-base text-gray-alt mb-8 max-w-xl mx-auto xl:mx-0">
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                       Enim rerum veniam quas repellat vero vel, quia molestiae
                       deleniti nulla quaerat! Ipsam quod corporis debitis quis
@@ -168,7 +168,7 @@ const About = () => {
 
                     {/*=========Personal info==========*/}
 
-                    <div className="grid xl:grid-cols-2 gap-4 mb-12">
+                    <div className="grid xl:grid-cols-2 gap-4 mb-8">
                       {infoData.map((item, index) => {
                         return (
                           <div
@@ -176,7 +176,7 @@ const About = () => {
                             key={index}
                           >
                             <div className="text-primary">{item.icon}</div>
-                            <div>{item.text}</div>
+                            <div className="text-base">{item.text}</div>
                           </div>
                         );
                       })}
@@ -189,7 +189,7 @@ const About = () => {
 
                       <div className="border-b border-border"></div>
 
-                      <div>English, German, Malayalam, Hindi</div>
+                      <div className="text-base">English, German, Malayalam, Hindi</div>
                     </div>
                   </div>
                 </TabsContent>
@@ -223,10 +223,10 @@ const About = () => {
                                   <div className="w-[11px] h-[11px] rounded-full bg-primary absolute -left-[5px] group-hover:translate-y-[84px] transition-all duration-500"></div>
                                 </div>
                                 <div>
-                                  <div className="font-semibold text-xl leading-none mb-2">
+                                  <div className="font-semibold text-base leading-none mb-2">
                                     {institute}
                                   </div>
-                                  <div className="text-lg leading-none text-muted-foreground mb-4">
+                                  <div className="text-sm leading-none text-muted-foreground mb-4">
                                     {course}
                                   </div>
                                 </div>
@@ -238,7 +238,7 @@ const About = () => {
                     </div>
 
                     <div className="flex flex-col items-center gap-y-6">
-                      <div className="flex gap-x-4 items-center text-[22px] text-primary ">
+                      <div className="flex gap-x-4 items-center text-[20px] text-primary ">
                         <GraduationCap size={30} />
                         <h4 className="capitalize font-medium ">
                           {getData(qualificationsData, "schooling").title}
@@ -255,10 +255,10 @@ const About = () => {
                                   <div className="w-[11px] h-[11px] rounded-full bg-primary absolute -left-[5px] group-hover:translate-y-[84px] transition-all duration-500"></div>
                                 </div>
                                 <div>
-                                  <div className="font-semibold text-xl leading-none mb-2">
+                                  <div className="font-semibold text-base leading-none mb-2">
                                     {institute}
                                   </div>
-                                  <div className="text-lg leading-none text-muted-foreground mb-4">
+                                  <div className="text-sm leading-none text-muted-foreground mb-4">
                                     {course}
                                   </div>
                                 </div>
@@ -273,9 +273,6 @@ const About = () => {
 
                 {/*======Skills========*/}
                 <TabsContent value="skills">
-                  <div className="text-center xl:text-left">
-                    <h3 className="h3 mb-8">Tools I Use</h3>
-                  </div>
 
                   <div>
                     <h4 className="text-xl text-primary font-semibold mb-2">Skills</h4>
@@ -289,8 +286,8 @@ const About = () => {
                             className="w-full flex gap-x-4 items-start text-center xl:text-left mx-auto xl:mx-0"
                             key={index}
                           >
-                            <div className="font-medium pb-4">{item.skill}</div>
-                            <div className="text-right w-full">{item.course}</div>
+                            <div className="font-medium text-base pb-4">{item.skill}</div>
+                            <div className="text-right w-full text-base text-gray-alt">{item.course}</div>
                           </div>
                         );
                       })}
@@ -298,7 +295,7 @@ const About = () => {
                   </div>
 
                   <div>
-                      <h4 className="text-xl  font-semibold mt-4 mb-2 xl:text-left">Tools</h4>
+                      <h4 className="text-xl text-primary font-semibold mt-4 mb-2 xl:text-left">Tools</h4>
 
                       <div className="border-b border-border mb-4"></div>
 
@@ -307,7 +304,7 @@ const About = () => {
                             const { imgPath } = item;
                             return (
                                 <div key={index}>
-                                    <Image src={imgPath} width={48} height={48} alt="" priority />
+                                    <Image src={imgPath} width={35} height={35} alt="" priority />
                                 </div>
                             )
                         })}
