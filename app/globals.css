@@ -95,3 +95,12 @@
   .text-gray-alt{
     @apply text-gray-500 dark:text-gray-400
   }
+  .bg-gray-alt{
+    @apply bg-gray-300 dark:bg-secondary
+  }
+
+  .swiper-horizontal > .section-pagination-bullets .swiper-pagination-bullet,
+  .swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+    @apply bg-primary
+  }

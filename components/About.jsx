@@ -102,13 +102,19 @@ const skillsData = [
         imgPath: "/about/vscode.svg",
       },
       {
-        imgPath: "/about/figma.svg",
+        imgPath: "/about/mongoDB.svg",
       },
       {
         imgPath: "/about/notion.svg",
       },
       {
         imgPath: "/about/wordpress.svg",
+      },
+      {
+        imgPath: "/about/tailwind.svg",
+      },
+      {
+        imgPath: "/about/react.svg",
       },
     ],
   },
