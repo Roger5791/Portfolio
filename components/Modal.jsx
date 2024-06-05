@@ -14,7 +14,7 @@ const Modal = ({ activePop, setShowModal }) => {
   const showModalHandle = () => {
     setShowModal(false);
   };
-  console.log(activePop)
+
 
   return (
     <div className=" w-full h-full z-50 fixed top-0 left-[0] bg-black/40">
