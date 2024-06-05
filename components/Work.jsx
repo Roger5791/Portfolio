@@ -22,7 +22,7 @@ const projectData = [
     ],
     description:
       "A Fullstack E-Commerce website made in React with Clerk & Stripe payment integration.",
-    link: "",
+    link: "/projects",
     github: "https://github.com/Roger5791/S-Store",
   },
   {
@@ -34,7 +34,7 @@ const projectData = [
     ],
     description:
       "A Comprehensive Clone of Facebook with Menu functionalties & more.",
-    link: "",
+    link: "/projects",
     github: "https://github.com/Roger5791/Facebook-Comprehensive-Clone",
   },
   {
@@ -46,7 +46,7 @@ const projectData = [
     ],
     description:
       "A Comprehensive and Exciting Movie/TV Show website made with React using TMDB API",
-    link: "",
+    link: "/projects",
     github: "https://github.com/Roger5791/Movio---React-Movie-TV-Show-Website",
   },
   {
@@ -58,7 +58,7 @@ const projectData = [
     ],
     description:
       "An E-Commerce Template for a Automobile Retailer made using pure HTML, CSS & JavaScript.",
-    link: "",
+    link: "/projects",
     github: "https://github.com/Roger5791/Apex-Autos---E-Commerce",
   },
   {
@@ -70,7 +70,7 @@ const projectData = [
     ],
     description:
       "An amazing Clone of  YouTube using Rapidgator API, complete with Search & Filter functionality.",
-    link: "",
+    link: "/projects",
     github: "https://github.com/Roger5791/YouTube-Clone",
   },
   {
@@ -82,7 +82,7 @@ const projectData = [
     ],
     description:
       "An Image and Video search website with functional variable made using HTML & JavaScript",
-    link: "",
+    link: "/projects",
     github: "https://github.com/Roger5791/Pexelio---Image-Video-Search-Website",
   },
   {
@@ -94,7 +94,7 @@ const projectData = [
     ],
     description:
       "A E-Commerce Platform for Books with Cart, Search & Filter functionality & with Firebase authentication",
-    link: "",
+    link: "/projects",
     github: "https://github.com/Roger5791/S-Books-E-Commerce-Website",
   },
   {
@@ -106,7 +106,7 @@ const projectData = [
     ],
     description:
       "A Student Database Management System made using Pthon and Tkinter",
-    link: "",
+    link: "/projects",
     github: "https://github.com/Roger5791/Student-Management-System---Python---Tkinter",
   },
   {
@@ -118,7 +118,7 @@ const projectData = [
     ],
     description:
       "A Comprehensive Recipe search website made using Edamam API with amazing Filters.",
-    link: "",
+    link: "/projects",
     github: "https://github.com/Roger5791/CookBook---Recipe-Search-Website",
   },
   {
@@ -130,7 +130,7 @@ const projectData = [
     ],
     description:
       "A Comprehensive Weather website made using OpenWeather API.",
-    link: "",
+    link: "/projects",
     github: "https://github.com/Roger5791/WeatherBug---Weather-API-Website",
   },
   {
@@ -142,7 +142,7 @@ const projectData = [
     ],
     description:
       "A Comprehensive Movie/TV Show website made using TMDB API.",
-    link: "",
+    link: "/projects",
     github: "https://github.com/Roger5791/Movio---Movies-TV-Shows-Website",
   },
   {
@@ -154,7 +154,7 @@ const projectData = [
     ],
     description:
       "A Comprehensive Website made using JavaScript to Add, Edit & Store notes.",
-    link: "",
+    link: "/projects",
     github: "https://github.com/Roger5791/NoteKeeper-JavaScript-App",
   },
   {
@@ -166,7 +166,7 @@ const projectData = [
     ],
     description:
       "A Simple GUI Calculator made using Python & Tkinter",
-    link: "",
+    link: "/projects",
     github: "https://github.com/Roger5791/Simple-Calculator---Python---Tkinter",
   },
   {
@@ -178,7 +178,7 @@ const projectData = [
     ],
     description:
       "A Template Website for an Automobile Buy/Sell Platform",
-    link: "",
+    link: "/projects",
     github: "https://github.com/Roger5791/Premium--Autos---HTML",
   },
 ];
