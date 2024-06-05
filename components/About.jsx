@@ -105,7 +105,7 @@ const skillsData = [
         imgPath: "/about/mongoDB.svg",
       },
       {
-        imgPath: "/about/notion.svg",
+        imgPath: "/about/node.svg",
       },
       {
         imgPath: "/about/wordpress.svg",
