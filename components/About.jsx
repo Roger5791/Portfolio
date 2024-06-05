@@ -166,14 +166,11 @@ const About = () => {
                 {/*======Personal========*/}
                 <TabsContent value="personal">
                   <div className="text-center xl:text-left">
-                    <h3 className="h3 mb-4">
-                      Unmaijaio aufauifh afhuiahf afuhauiofha fiahf afia
-                    </h3>
+                    <h3 className="h3 mb-4">Effective & Efficient</h3>
                     <p className="text-base text-gray-alt mb-8 max-w-xl mx-auto xl:mx-0">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Enim rerum veniam quas repellat vero vel, quia molestiae
-                      deleniti nulla quaerat! Ipsam quod corporis debitis quis
-                      distinctio doloremque blanditiis veritatis ipsum.
+                      I'm always eager to learn and do research, understands the
+                      invaluable significance of knowledge, and utilize all
+                      available resources to be able to overcome any struggles.
                     </p>
 
                     {/*=========Personal info==========*/}
@@ -199,7 +196,9 @@ const About = () => {
 
                       <div className="border-b border-border"></div>
 
-                      <div className="text-base">English, German, Malayalam, Hindi</div>
+                      <div className="text-base">
+                        English, German, Malayalam, Hindi
+                      </div>
                     </div>
                   </div>
                 </TabsContent>
@@ -283,21 +282,26 @@ const About = () => {
 
                 {/*======Skills========*/}
                 <TabsContent value="skills">
-
                   <div>
-                    <h4 className="text-xl text-primary font-semibold mb-2">Skills</h4>
+                    <h4 className="text-xl text-primary font-semibold mb-2">
+                      Skills
+                    </h4>
                     <div className="border-b border-border mb-4"></div>
 
                     <div>
-                      {getData(skillsData, 'skills').data.map((item, index) => {
+                      {getData(skillsData, "skills").data.map((item, index) => {
                         const { name } = item;
                         return (
                           <div
                             className="w-full flex gap-x-4 items-start text-center xl:text-left mx-auto xl:mx-0"
                             key={index}
                           >
-                            <div className="font-medium text-base pb-4">{item.skill}</div>
-                            <div className="text-right w-full text-base text-gray-alt">{item.course}</div>
+                            <div className="font-medium text-base pb-4">
+                              {item.skill}
+                            </div>
+                            <div className="text-right w-full text-base text-gray-alt">
+                              {item.course}
+                            </div>
                           </div>
                         );
                       })}
@@ -305,21 +309,31 @@ const About = () => {
                   </div>
 
                   <div>
-                      <h4 className="text-xl text-primary font-semibold mt-4 mb-2 xl:text-left">Tools</h4>
+                    <h4 className="text-xl text-primary font-semibold mt-4 mb-2 xl:text-left">
+                      Tools
+                    </h4>
 
-                      <div className="border-b border-border mb-4"></div>
+                    <div className="border-b border-border mb-4"></div>
 
-                      <div className="flex gap-x-8 justify-center xl:justify-start">
-                        {getData(skillsData, 'tools').data.map((item, index) => {
-                            const { imgPath } = item;
-                            return (
-                                <div className="hover:scale-[1.1] cursor-pointer" key={index}>
-                                    <Image src={imgPath} width={35} height={35} alt="" priority />
-                                </div>
-                            )
-                        })}
-                      </div>
-
+                    <div className="flex gap-x-8 justify-center xl:justify-start">
+                      {getData(skillsData, "tools").data.map((item, index) => {
+                        const { imgPath } = item;
+                        return (
+                          <div
+                            className="hover:scale-[1.1] cursor-pointer"
+                            key={index}
+                          >
+                            <Image
+                              src={imgPath}
+                              width={35}
+                              height={35}
+                              alt=""
+                              priority
+                            />
+                          </div>
+                        );
+                      })}
+                    </div>
                   </div>
                 </TabsContent>
               </div>

@@ -25,11 +25,11 @@ const Hero = () => {
             </div>
             <h1 className="h1 pb-6">Hello, my name is Saurav Antony</h1>
             <p className=" max-w-[490px] mx-auto xl:mx-0">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Accusantium doloribus assumenda eum exercitationem sit ratione
-              ipsa consectetur! Quisquam accusantium, error repellat, laborum
-              eum debitis quasi tempore temporibus necessitatibus officiis
-              veniam.
+            An adept developer specializing in C++ & Python. Proficient in
+            building websites and application using React, NodeJS &
+            MongoDb and efficient in working with either the frontend or the
+            backend. Highly adaptive and can learn new technologies that
+            are best suited for certain tasks.
             </p>
             {/*=====Buttons=====*/}
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12 mt-6">

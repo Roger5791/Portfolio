@@ -6,17 +6,17 @@ const servicesData = [
     {
         icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
         title: 'Web Design',
-        description: 'Lore1 ipsum dolor sit amet, consectetur adipisicing elit Quibusdam. Lorem ipsum dolor sit amet.',
+        description: 'Web design is the process of creating and organizing the visual and interactive elements of a website. It combines aesthetics and functionality to ensure a site is both appealing and user-friendly. ',
     },
     {
         icon: <Blocks size={72} strokeWidth={0.8} />,
         title: 'Web Development',
-        description: 'Lore2 ipsum dolor sit amet, consectetur adipisicing elit Quibusdam. Lorem ipsum dolor sit amet.',
+        description: 'Web development is the process of building and maintaining websites. It involves coding and programming to create the structure, functionality, and interactivity of a site.',
     },
     {
         icon: <Gem size={72} strokeWidth={0.8} />,
         title: 'Programming',
-        description: 'Lore3 ipsum dolor sit amet, consectetur adipisicing elit Quibusdam. Lorem ipsum dolor sit amet.',
+        description: 'Programming is the process of writing instructions that a computer can follow to perform specific tasks. It can be used to create applications, scripts, or other programs',
     },
 ]
 
