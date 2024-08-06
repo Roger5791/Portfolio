@@ -252,7 +252,6 @@ const Projects = () => {
     setActivePop(image, name)
   }
 
-  console.log(activePop)
 
 
 
