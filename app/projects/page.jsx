@@ -8,6 +8,61 @@ import Modal from '@/components/Modal';
 
 const projectData = [
   {
+    image: [
+      "/work/cartopia-1.png",
+      "/work/cartopia-2.png",
+      "/work/cartopia-3.png",
+      "/work/cartopia-4.png",
+      "/work/cartopia-5.png",
+      "/work/cartopia-6.png",
+      "/work/cartopia-7.png",
+    ],
+    category: "React",
+    name: "Cartopia E-Commerce Website",
+    tools: ["React", "Express", "MongoDB", "Stripe","Tailwind"],
+    description:
+      "A Fullstack E-Commerce website made in React with Express, MongoDB, Social Login, Cloudinary & Stripe payment integration.",
+    link: "/projects",
+    github: "https://github.com/Roger5791/cartopia-frontend",
+  },
+  {
+    image: [
+      "/work/cart-vend-1.png",
+      "/work/cart-vend-2.png",
+      "/work/cart-vend-3.png",
+      "/work/cart-vend-4.png",
+      "/work/cart-vend-5.png",
+      "/work/cart-vend-6.png",
+      "/work/cart-vend-7.png",
+      "/work/cart-vend-9.png",
+    ],
+    category: "React",
+    name: "Cartopia Admin Dashboard",
+    tools: ["React", "Express", "MongoDB","Tailwind"],
+    description:
+      "A Comprehensive Dashboard made in React with Express, MongoDB, Cloudinary & Social Login with amazing features and Live Chat.",
+    link: "/projects",
+    github: "https://github.com/Roger5791/cartopia-vendor-dashboard",
+  },
+  {
+    image: [
+      "/work/cart-admin-1.png",
+      "/work/cart-admin-2.png",
+      "/work/cart-admin-3.png",
+      "/work/cart-admin-4.png",
+      "/work/cart-admin-5.png",
+      "/work/cart-admin-6.png",
+      "/work/cart-admin-7.png",
+    ],
+    category: "React",
+    name: "Cartopia Vendor Dashboard",
+    tools: ["React", "Express", "MongoDB","Tailwind"],
+    description:
+      "A Comprehensive Dashboard made in React with Express, MongoDB, Cloudinary & Social Login with amazing features and Live Chat.",
+    link: "/projects",
+    github: "https://github.com/Roger5791/cartopia-admin-dashboard",
+  },
+  {
     image: ["/work/s-store-1.png", "/work/s-store-2.png", "/work/s-store-3.png", "/work/s-store-4.png",],
     category: "React",
     name: "S-Store E-Commerce Website",
